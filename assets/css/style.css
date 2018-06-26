@@ -37,6 +37,14 @@ header {
     padding-top: 20px;
     
 }
+h3 {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+}
 
 header h1 {
     color: white;
