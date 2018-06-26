@@ -13,60 +13,60 @@
 <body>
     <div id="wrapper">
         <div id="box">
+                <ul>
+                        <li>
+                            <a href="index.html">About</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+    
             <header>
                 <h1>Alicia Collins
                 </h1>
-                <ul>
-                    <li>
-                        <a href="index.html">About</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
 
             </header>
         </div>
     </div>
-   
 
-        <div id="content">
-            <h1 id="about">
-                About Me
-            </h1>
-            <form>
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                <div class="form-group">
-                    <label for="formGroupExampleInput">Example label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-                </div>
-                <div class="form-group">
-                    <label for="formGroupExampleInput2">Another label</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-                </div>
-            </form>
-            <!--         
+
+    <div id="content">
+        <h1 id="about">
+            About Me
+        </h1>
+<!-- not sure why I cant change my lables to be wider... I've tried several different codes but they all keep it at the same width -->
         <form>
-
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name" placeholder="Alicia Collins"><br>
-
-            <label for="email">email</label><br>
-            <input type="text" id="email" name="email" placeholder="alicia.collins60@me.com"><br>
-
-            <label for="message">Message</label><br>
-            <input type="text" id="message" name="message">
-                <placeholder="#">
-            
-        </form> -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <label for="validationCustom01">Name</label><br>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Alicia Collins" required>
+                </div>
+            </div>    
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label for="exampleInputEmail1">Email</label><br>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="alicia.collins60@me.com">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label><br>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                     <div class="col-sm-12">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </div>
+        </form>
         </div>
 
-    
-
-    <div class="footer">Copyright &#169;</div>
+        <div class="footer">Copyright &#169;</div>
 </body>

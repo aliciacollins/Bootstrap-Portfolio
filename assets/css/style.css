@@ -4,9 +4,16 @@ body{
     /*background-image:url("../images/alicia\ face.jpg");
     this image works why doesn't the other one*/
     color: #777777;
+    background-image: url("../images/dust_scratches.png");  
 }
 
 #wrapper {
+    /* left: 0; 
+    right: 0;
+    margin: 30px;
+    width: auto;
+    background-color: #ffffff;
+    padding: 0px; */
     max-width: 100%;
     margin: 0 auto;
     background-color:#ffffff;
@@ -24,24 +31,23 @@ body{
 header {
     background-color: #4aaaa5;
     height: 90px;
-    padding: 5px 0 5px 0;
+    color: white;
     width: 240px;
-    display: block;
-    margin-bottom:0%; 
-    margin-right: 0px;
-    margin-top: 0;    
+    margin-left:20px;
+    padding-top: 20px;
+    
 }
 
 header h1 {
     color: white;
-    padding-top: 10px;
+    marigin:0px;
+    text-align: center;
 }
     
 ul{
-  
-    position: absolute;
-    top: 50px;
-    right:18px 
+  float: right;
+    right:25px;
+    padding-top: 20px;
     
 }
 li{
@@ -86,9 +92,9 @@ img{
     margin-right: 20px;
     height:240px;
     width:240px;
-    
 }
-      .footer {
+
+.footer {
         position: fixed;
         right: 0;
         bottom: 0;
@@ -98,12 +104,6 @@ img{
         text-align: center;
         border-top: 10px solid #4aaaa5;
         color: white;
-      }
-
-
-      body{
-         
-          background-image: url("../images/dust_scratches.png");   
       }
 #image1{
     float: left;
@@ -139,7 +139,8 @@ img{
     margin: 0px;
     border-radius: 4px;
 }
-    #email {
+
+#email {
   
         background-color: white;
         color: #777777;
@@ -147,7 +148,6 @@ img{
         margin: 0px;
         border-radius: 4px;
 }
-
 
 .box{
     position: absolute;
@@ -157,7 +157,7 @@ img{
     width: 960px;
     background-color: white;
     padding: 30px;
-   
+  
 }
 
 #message{
@@ -168,4 +168,6 @@ img{
     margin: 0px;
 }
 
-
+.row{
+    padding-top: 20px;
+}
