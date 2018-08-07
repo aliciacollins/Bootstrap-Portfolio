@@ -38,12 +38,12 @@ header {
     
 }
 h3 {
-    position: absolute;
+    position: absolute-center;
     bottom: 20px;
     background-color: #4aaaa5;
     color: white;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 header h1 {
